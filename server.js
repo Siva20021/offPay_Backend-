@@ -3,7 +3,7 @@ var express = require("express");
 require('dotenv').config()
 const cors = require("cors");
 
-const mongoURI = "mongodb+srv://test:test@cluster0.mjywddi.mongodb.net/Offpay?retryWrites=true&w=majority";  
+const mongoURI = "mongodb+srv://test:test@cluster0.mjywddi.mongodb.net/Offpay?retryWrites=true&w=majority";
 const { default: mongoose } = require('mongoose');
 mongoose.connect(mongoURI);
 console.log('Connected to DB');
